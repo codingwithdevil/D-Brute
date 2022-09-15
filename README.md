@@ -8,8 +8,8 @@
     Also Result According To Your Password & Proxies List. This tool also include Proxy Scraper[DPGC],
     The use of the D-Brute & its resources is COMPLETE RESPONSIBILITY of the END-USER.
     Developers assume NO liability and are NOT responsible for any damage caused by this program.
-    Also we want to inform you that some of your actions may be ILLEGAL and you CAN NOT use this software 
-    to test device, company or any other type of target without WRITTEN PERMISSION from them.
+    Also we want to inform you that some of your actions may be ILLEGAL and you CAN NOT use this 
+    Program to test company or any other type of target without WRITTEN PERMISSION from them.
    
     
 ### [+] Installation Video 
