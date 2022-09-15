@@ -7,7 +7,9 @@
 #    Also we want to inform you that some of your actions may be ILLEGAL and you CAN NOT use this
 #    software to test device, company or any other type of target without WRITTEN PERMISSION from them.
 
-from Defs.manager.cmdmanager import *
+#from Defs.manager.cmdmanager import *
+from time import sleep as wait
+
 import requests as rqs
 from time import sleep
 import random
@@ -59,7 +61,7 @@ def main():
         check_proxys(proxys, n)
         print("\033[1;33m Proxy Checking Finished \n")
         print(" ")
-        wps = len(open('working_proxy.txt').readlines)
+        wps = len(open('working_proxy.txt').readlines())
         print(f"\033[1;32m Total Working Proxy : {wps} \n")
         words = open(passwd).readlines()
         w = int(len(words))
