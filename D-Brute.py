@@ -1,3 +1,4 @@
+#!/bin/python
 #
 #    D-Brute   by Coding With Devil  https://www.youtube.com/c/CodingWithDevil/
 #    This program comes with ABSOLUTELY NO WARRANTY
