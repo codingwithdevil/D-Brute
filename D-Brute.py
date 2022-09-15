@@ -9,7 +9,7 @@
 
 #from Defs.manager.cmdmanager import *
 from time import sleep as wait
-
+from subprocess import call as run_command
 import requests as rqs
 from time import sleep
 import random
