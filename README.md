@@ -41,5 +41,12 @@
 ```
 apt update && apt install git -y && apt install python3 python3-pip && git clone https://github.com/codingwithdevil/D-Brute.git && cd D-Brute && pip3 install -r requirements.txt && python3 D-Brute.py
 ```
+# Support Me on:
 
 ### [+] Official Youtube Channel https://www.youtube.com/c/CodingWithDevil/
+### [+] Telegram  :- https://t.me/CodingWithDevil_yt
+### [+] Instagram :- https://www.instagram.com/codingwithdevil/
+
+# Official Group :
+### [+] official telegram group:  https://t.me/CodingWithDevil
+### [+] official telgarm group chat : https://t.me/Codingwithdevil_group_chat
