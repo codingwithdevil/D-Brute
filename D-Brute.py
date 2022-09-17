@@ -7,7 +7,6 @@
 #    Also we want to inform you that some of your actions may be ILLEGAL and you CAN NOT use this
 #    software to test device, company or any other type of target without WRITTEN PERMISSION from them.
 
-#from Defs.manager.cmdmanager import *
 from time import sleep as wait
 from subprocess import call as run_command
 import requests as rqs
