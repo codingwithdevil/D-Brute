@@ -1,6 +1,6 @@
 #!/bin/python
 #
-#    D-Brute   by Coding With Devil  https://www.youtube.com/c/CodingWithDevil/
+#    D-Brute by Coding With Devil  https://www.youtube.com/c/CodingWithDevil/
 #    This program comes with ABSOLUTELY NO WARRANTY
 #    The use of the D-Brute & its resources is COMPLETE RESPONSIBILITY of the END-USER.
 #    Developers assume NO liability and are NOT responsible for any damage caused by this program.
